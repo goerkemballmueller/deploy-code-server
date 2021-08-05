@@ -40,7 +40,6 @@ RUN code-server --install-extension esbenp.prettier-vscode
 
 # Port
 ENV PORT=8080
-EXPOSE 4200
 
 # Use our custom entrypoint script first
 COPY deploy-container/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
